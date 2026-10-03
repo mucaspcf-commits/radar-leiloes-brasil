@@ -6,7 +6,7 @@ Escopo: leitura do projeto original, revisão do processo de dados, comparação
 
 | Prioridade | Problema original | Mudança |
 |---|---|---|
-| Crítica | `seed_national_data.py` gerava imóveis aleatórios como anúncios ativos de bancos e tribunais. | Publicação usa exclusivamente registros importados do CSV identificado. |
+| Crítica | `seed_national_data.py` gerava imóveis aleatórios como anúncios ativos de bancos e tribunais. | Publicação usa registros do CSV identificado e índice parcial da página pública Mega, com origem explícita. |
 | Alta | CSV nacional salvo era HTML de CAPTCHA. | Validação rejeita bloqueios, listas vazias e mudanças de estrutura sem apagar base válida. |
 | Alta | Desconto com ponto decimal e áreas como `116.12` podiam ser multiplicados por 100. | Números aceitam decimal com ponto e moeda brasileira com vírgula; desconto é recalculado com preço e avaliação. |
 | Alta | Valorização por estado e notas de oportunidade tinham pesos e números fixos sem evidência. | Removidas previsões e recomendações; comparação usa apenas atributos observados. |
@@ -40,7 +40,7 @@ Comparação de três imóveis; preço/m²; favoritos privados; CSV; cenários d
 
 ## Validação
 
-6 testes Python de importação e preservação; 7 testes JavaScript de custos, perdas, entradas inválidas e filtros, incluindo cidades homônimas e valores acima da avaliação. Na interface foram verificados filtro de Campinas (28 imóveis), comparação e simulação. Ausência de dívida ou ocupação não é validada pelo software.
+8 testes Python de importação, preservação e índice Mega; 7 testes JavaScript de custos, perdas, entradas inválidas e filtros, incluindo cidades homônimas e valores acima da avaliação. Na interface foram verificados filtro de Campinas (28 imóveis), comparação e simulação. Ausência de dívida ou ocupação não é validada pelo software.
 
 ## Ampliação nacional e múltiplas origens
 
@@ -48,4 +48,5 @@ A coleta nacional foi concluída: 17.914 registros, 1.041 combinações de cidad
 
 Foram acrescentadas consultas externas por cidade e instituição para BB, Santander, Itaú, Bradesco, Creditas, Pacaembu Construtora, Unicos Incorporadora, PGFN, Zuk, Superbid e Mega Leilões. A [lista de vendedores da Zuk](https://www.portalzuk.com.br/) identifica instituições financeiras, construtoras, incorporadoras e órgãos judiciais. O [catálogo BB](https://www.seuimovelbb.com.br/catalogo) e o [Comprei](https://comprei.pgfn.gov.br/anuncio) oferecem filtros geográficos próprios.
 
-BB, Zuk e Superbid responderam HTTP 403 às tentativas diretas de coleta; por isso a integração automática dessas fontes não foi declarada concluída. A busca externa na web é um meio de descoberta e não uma base sincronizada ou uma garantia de cobertura integral.
+A primeira tentativa no BB e as consultas a Zuk e Superbid receberam HTTP 403. A consulta posterior ao catálogo BB respondeu sem anúncios no HTML. Essas fontes permanecem externas. Mega Leilões tem índice parcial de 48 anúncios da primeira página, com coleta gratuita periódica. A busca externa na web é um meio de descoberta e não uma base sincronizada ou uma garantia de cobertura integral.
+
