@@ -27,6 +27,25 @@ function renderSources() {
  }
  const broad=document.getElementById('external-broad');
  broad.href='https://www.google.com/search?q='+encodeURIComponent(`leilão imóvel ${city} ${entity}`);
+ renderMega();
 }
 ['source-category','external-city','external-entity'].forEach(id=>document.getElementById(id).addEventListener('input',renderSources));
-renderSources();
+let megaData=null;
+function renderMega() {
+ if(!megaData)return;
+ const query=normalizeText(document.getElementById('external-city').value).split(/\s+/).filter(Boolean);
+ const entity=normalizeText(document.getElementById('external-entity').value);
+ const rows=megaData.properties.filter(p=>query.every(q=>normalizeText(`${p.cidade} ${p.uf} ${p.titulo}`).includes(q))&&normalizeText(p.titulo).includes(entity));
+ document.getElementById('mega-status').textContent=`${rows.length} de ${megaData.properties.length} anúncios desta amostra. Coleta: ${new Date(megaData.collected_at).toLocaleString('pt-BR')}. ${megaData.coverage}`;
+ const cards=document.getElementById('mega-cards');cards.replaceChildren();
+ for(const p of rows){const article=document.createElement('article');article.className='card cardbody';const title=document.createElement('h3'),details=document.createElement('p'),link=document.createElement('a');title.textContent=p.titulo;details.textContent=`${money(p.preco)} · ${p.cidade} / ${p.uf} · ${p.modalidade}. Situação na coleta: ${p.status}.`;link.textContent='Ver anúncio e edital na Mega Leilões ↗';link.href=p.link;link.target='_blank';link.rel='noopener noreferrer';article.append(title,details,link);cards.append(article);}
+}
+async function loadMega(){try {const r=await fetch('mega-data.json?t='+Date.now(),{cache:'no-store'});if(!r.ok)throw Error();const data=await r.json();if(!Array.isArray(data.properties)||data.properties.some(p=>!p.link.startsWith('https://www.megaleiloes.com.br/imoveis/')||!Number.isFinite(p.preco)))throw Error();megaData=data;renderMega();}catch{document.getElementById('mega-status').textContent='Não foi possível atualizar o índice parcial. Consulte o catálogo externo; eventuais dados anteriores permanecem na tela.';}}
+renderSources();loadMega();document.getElementById('refresh').addEventListener('click',loadMega);setInterval(()=>{if(!document.hidden)loadMega();},15*60*1000);
+fetch('source-audit.json',{cache:'no-store'}).then(r=>{if(!r.ok)throw Error();return r.json();}).then(data=>{
+ document.getElementById('audit-status').textContent=`Verificação técnica: ${new Date(data.checked_at).toLocaleString('pt-BR')}. Escopo: fontes selecionadas, sem promessa de cobertura total.`;
+ const table=document.createElement('table');
+ const head=document.createElement('tr');for(const title of ['Fonte','Categoria','Acesso automático','Importação']){const cell=document.createElement('th');cell.textContent=title;head.append(cell);}table.append(head);
+ for(const source of data.sources){const row=document.createElement('tr');for(const value of [source.name,source.category,source.status,source.integration_mode||(source.integrated?'Índice parcial':'Consulta externa')]){const cell=document.createElement('td');cell.textContent=value;row.append(cell);}table.append(row);}
+ document.getElementById('audit-table').replaceChildren(table);
+}).catch(()=>{document.getElementById('audit-status').textContent='Relatório de acesso indisponível. Isso não altera a base de imóveis já carregada.';});

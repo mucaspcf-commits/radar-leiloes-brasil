@@ -1,0 +1,77 @@
+name: Atualizar dados e publicar
+on:
+  push:
+    branches: [main]
+  workflow_dispatch:
+  schedule:
+    - cron: '17 */6 * * *'
+permissions:
+  contents: read
+  pages: write
+  id-token: write
+concurrency:
+  group: radar-pages
+  cancel-in-progress: false
+jobs:
+  publish:
+    runs-on: ubuntu-latest
+    environment:
+      name: github-pages
+      url: ${{ steps.deployment.outputs.page_url }}
+    steps:
+      - uses: actions/checkout@v4
+      - uses: actions/setup-python@v5
+        with:
+          python-version: '3.11'
+      - uses: actions/setup-node@v4
+        with:
+          node-version: '22'
+      - name: Testar importação e cálculos
+        run: |
+          python -m unittest discover -s tests
+          node --test tests/core.test.cjs
+      - name: Restaurar última base válida
+        uses: actions/cache/restore@v4
+        with:
+          path: static/data.json
+          key: radar-data-${{ github.run_id }}-${{ github.run_attempt }}
+          restore-keys: radar-data-
+      - name: Tentar atualização da fonte
+        id: update
+        continue-on-error: true
+        run: python data_sync.py
+      - name: Registrar falha sem apagar base válida
+        if: steps.update.outcome == 'failure'
+        run: echo '::warning::Fonte indisponível ou inválida. A publicação preserva a última base válida, com sua data original.'
+      - name: Guardar base válida
+        if: steps.update.outcome == 'success'
+        uses: actions/cache/save@v4
+        with:
+          path: static/data.json
+          key: radar-data-${{ github.run_id }}-${{ github.run_attempt }}
+      - name: Auditar acesso às fontes públicas selecionadas
+        continue-on-error: true
+        run: python audit_sources.py
+      - name: Restaurar índice parcial válido
+        uses: actions/cache/restore@v4
+        with:
+          path: static/mega-data.json
+          key: radar-mega-${{ github.run_id }}-${{ github.run_attempt }}
+          restore-keys: radar-mega-
+      - name: Atualizar índice parcial da Mega Leilões
+        id: mega
+        continue-on-error: true
+        run: python mega_sync.py
+      - name: Guardar índice parcial válido
+        if: steps.mega.outcome == 'success'
+        uses: actions/cache/save@v4
+        with:
+          path: static/mega-data.json
+          key: radar-mega-${{ github.run_id }}-${{ github.run_attempt }}
+      - uses: actions/configure-pages@v5
+      - uses: actions/upload-pages-artifact@v3
+        with:
+          path: static
+      - name: Publicar site
+        id: deployment
+        uses: actions/deploy-pages@v4

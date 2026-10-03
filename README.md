@@ -18,7 +18,9 @@ O botão consulta a última base publicada, não aciona uma consulta autenticada
 
 A base publicada inicialmente tem **17.914 registros nacionais**, da lista oficial da Caixa com geração em **02/10/2026**, cobrindo os 26 estados e o Distrito Federal. A busca e o seletor de cidades alcançam todos os municípios presentes nessa lista. Sua presença não confirma disponibilidade atual. O arquivo nacional encontrado no projeto original continha uma página de CAPTCHA; uma nova consulta oficial válida permitiu substituir a base local de São Paulo.
 
-O diretório inclui BB, Santander, Itaú, Bradesco, Creditas, Pacaembu, Unicos, PGFN, Zuk, Superbid e Mega Leilões, com filtros por tipo de origem e busca externa por qualquer cidade/instituição. Não são fontes importadas, parceiros ou endossos. Tentativas de coleta pública em BB, Zuk e Superbid retornaram HTTP 403; nenhuma proteção foi contornada. Integração automática além da Caixa permanece pendente de acesso permitido a dados estruturados.
+A Mega Leilões tem um índice gratuito **parcial da primeira página** do catálogo público de imóveis (48 anúncios na coleta inicial), atualizado pelo mesmo fluxo. Não representa todo o catálogo nem confirma disponibilidade individual. O título pode não identificar o banco vendedor.
+
+O diretório inclui BB, Santander, Itaú, Bradesco, Creditas, Pacaembu, Unicos, PGFN, Zuk, Superbid e Mega, com filtros por categoria e busca externa por qualquer cidade/instituição. Os demais catálogos ainda não têm anúncios importados. BB respondeu sem anúncios no HTML; algumas outras fontes bloquearam a coleta. Nenhuma proteção foi contornada. Veja [a auditoria de fontes](AUDITORIA-FONTES.md).
 
 Ocupação e datas de leilão ficam como não informadas quando ausentes no CSV. Avaliação não equivale a preço de mercado ou de revenda. Não há recomendação de investimento ou garantia de retorno.
 

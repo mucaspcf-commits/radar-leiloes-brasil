@@ -1,0 +1,488 @@
+{
+  "source": "Mega Leilões",
+  "source_url": "https://www.megaleiloes.com.br/imoveis",
+  "collected_at": "2026-10-03T13:13:28.979501+00:00",
+  "coverage": "Parcial: primeira página do catálogo público de imóveis; anúncios podem encerrar ou mudar.",
+  "properties": [
+    {
+      "id": "J128550",
+      "titulo": "Casa 324 m² - Vila Madalena - São Paulo - SP",
+      "preco": 1750000.0,
+      "cidade": "São Paulo",
+      "uf": "SP",
+      "modalidade": "Judicial",
+      "status": "Aberto para lances",
+      "link": "https://www.megaleiloes.com.br/imoveis/casas/sp/sao-paulo/casa-324-m2-vila-madalena-sao-paulo-sp-j128550"
+    },
+    {
+      "id": "X129535",
+      "titulo": "Casa em Condomínio 191 m² - Residencial Damha Belvedere - Presidente Prudente - SP",
+      "preco": 1221923.14,
+      "cidade": "Presidente Prudente",
+      "uf": "SP",
+      "modalidade": "Extrajudicial",
+      "status": "Aberto para lances",
+      "link": "https://www.megaleiloes.com.br/imoveis/casas/sp/presidente-prudente/casa-em-condominio-191-m2-residencial-damha-belvedere-presidente-prudente-sp-x129535"
+    },
+    {
+      "id": "X129536",
+      "titulo": "Área de 11.280 m² (com construção) - Manoel da Frota - Corinto - MG",
+      "preco": 2943640.98,
+      "cidade": "Corinto",
+      "uf": "MG",
+      "modalidade": "Extrajudicial",
+      "status": "Aberto para lances",
+      "link": "https://www.megaleiloes.com.br/imoveis/terrenos-e-lotes/mg/corinto/area-de-11280-m2-com-construcao-manoel-da-frota-corinto-mg-x129536"
+    },
+    {
+      "id": "J127381",
+      "titulo": "Vaga de Garagem 25 m² (Unid. 738) - Centro - São Paulo - SP",
+      "preco": 3300.25,
+      "cidade": "São Paulo",
+      "uf": "SP",
+      "modalidade": "Judicial",
+      "status": "Aberto para lances",
+      "link": "https://www.megaleiloes.com.br/imoveis/vagas-de-garagem/sp/sao-paulo/vaga-de-garagem-25-m2-unid-738-centro-sao-paulo-sp-j127381"
+    },
+    {
+      "id": "J127906",
+      "titulo": "Direitos sobre Apartamento 27 m² (01 vaga) - Boqueirão - Praia Grande - SP",
+      "preco": 115963.7,
+      "cidade": "Praia Grande",
+      "uf": "SP",
+      "modalidade": "Judicial",
+      "status": "Aberto para lances",
+      "link": "https://www.megaleiloes.com.br/imoveis/apartamentos/sp/praia-grande/direitos-sobre-apartamento-27-m2-01-vaga-boqueirao-praia-grande-sp-j127906"
+    },
+    {
+      "id": "J128496",
+      "titulo": "Fração Ideal (3/52) sobre Unidade Hoteleira 61 m² (Unid. 401) - Parque do Sol - Olímpia - SP",
+      "preco": 138787.73,
+      "cidade": "Olímpia",
+      "uf": "SP",
+      "modalidade": "Judicial",
+      "status": "Aberto para lances",
+      "link": "https://www.megaleiloes.com.br/imoveis/apartamentos/sp/olimpia/fracao-ideal-352-sobre-unidade-hoteleira-61-m2-unid-401-parque-do-sol-olimpia-sp-j128496"
+    },
+    {
+      "id": "J128497",
+      "titulo": "Fração Ideal (3/52) sobre Unidade Hoteleira 61 m² (Unid. 702) - Parque do Sol - Olímpia - SP",
+      "preco": 138787.73,
+      "cidade": "Olímpia",
+      "uf": "SP",
+      "modalidade": "Judicial",
+      "status": "Aberto para lances",
+      "link": "https://www.megaleiloes.com.br/imoveis/apartamentos/sp/olimpia/fracao-ideal-352-sobre-unidade-hoteleira-61-m2-unid-702-parque-do-sol-olimpia-sp-j128497"
+    },
+    {
+      "id": "J128498",
+      "titulo": "Fração Ideal (3/52) sobre Unidade Hoteleira 61 m² (Unid. 702) - Parque do Sol - Olímpia - SP - Lote 03",
+      "preco": 138787.73,
+      "cidade": "Olímpia",
+      "uf": "SP",
+      "modalidade": "Judicial",
+      "status": "Aberto para lances",
+      "link": "https://www.megaleiloes.com.br/imoveis/apartamentos/sp/olimpia/fracao-ideal-352-sobre-unidade-hoteleira-61-m2-unid-702-parque-do-sol-olimpia-sp-lote-03-j128498"
+    },
+    {
+      "id": "J128500",
+      "titulo": "Apartamento 49 m² (01 vaga) - Jardim Altos do Ipanema - Sorocaba - SP",
+      "preco": 129461.02,
+      "cidade": "Sorocaba",
+      "uf": "SP",
+      "modalidade": "Judicial",
+      "status": "Aberto para lances",
+      "link": "https://www.megaleiloes.com.br/imoveis/apartamentos/sp/sorocaba/apartamento-49-m2-01-vaga-jardim-altos-do-ipanema-sorocaba-sp-j128500"
+    },
+    {
+      "id": "J128503",
+      "titulo": "Área Rural com 4.892 m² - Tupandi - RS",
+      "preco": 171557.24,
+      "cidade": "Tupandi",
+      "uf": "RS",
+      "modalidade": "Judicial",
+      "status": "Aberto para lances",
+      "link": "https://www.megaleiloes.com.br/imoveis/imoveis-rurais/rs/tupandi/area-rural-com-4892-m2-tupandi-rs-j128503"
+    },
+    {
+      "id": "J128504",
+      "titulo": "Área com 4.076 m² - Sebastião do Caí - RS",
+      "preco": 160120.11,
+      "cidade": "São Sebastião Do Caí",
+      "uf": "RS",
+      "modalidade": "Judicial",
+      "status": "Aberto para lances",
+      "link": "https://www.megaleiloes.com.br/imoveis/imoveis-rurais/rs/sao-sebastiao-do-cai/area-com-4076-m2-sebastiao-do-cai-rs-j128504"
+    },
+    {
+      "id": "J127904",
+      "titulo": "Apartamento 35 m² (próx. à Praia) - Centro - São Vicente - SP",
+      "preco": 128188.08,
+      "cidade": "São Vicente",
+      "uf": "SP",
+      "modalidade": "Judicial",
+      "status": "Aberto para lances",
+      "link": "https://www.megaleiloes.com.br/imoveis/apartamentos/sp/sao-vicente/apartamento-35-m2-prox-a-praia-centro-sao-vicente-sp-j127904"
+    },
+    {
+      "id": "J128416",
+      "titulo": "Apartamento 49 m² (01 vaga) - Praia da Guilhermina - Praia Grande - SP",
+      "preco": 262645.51,
+      "cidade": "Praia Grande",
+      "uf": "SP",
+      "modalidade": "Judicial",
+      "status": "Aberto para lances",
+      "link": "https://www.megaleiloes.com.br/imoveis/apartamentos/sp/praia-grande/apartamento-49-m2-01-vaga-praia-da-guilhermina-praia-grande-sp-j128416"
+    },
+    {
+      "id": "J128494",
+      "titulo": "Direitos sobre Apartamento no Litoral 46 m² (Conjunto Residencial Abaeté) - Jardim Real - Praia Grande - SP",
+      "preco": 195987.25,
+      "cidade": "Praia Grande",
+      "uf": "SP",
+      "modalidade": "Judicial",
+      "status": "Aberto para lances",
+      "link": "https://www.megaleiloes.com.br/imoveis/apartamentos/sp/praia-grande/direitos-sobre-apartamento-no-litoral-46-m2-conjunto-residencial-abaete-jardim-real-praia-grande-sp-j128494"
+    },
+    {
+      "id": "J128102",
+      "titulo": "Apartamento 80 m² e 02 Vagas de Garagem - Baeta Neves - São Bernardo do Campo - SP",
+      "preco": 571268.38,
+      "cidade": "São Bernardo Do Campo",
+      "uf": "SP",
+      "modalidade": "Judicial",
+      "status": "Aberto para lances",
+      "link": "https://www.megaleiloes.com.br/imoveis/apartamentos/sp/sao-bernardo-do-campo/apartamento-80-m2-e-02-vagas-de-garagem-baeta-neves-sao-bernardo-do-campo-sp-j128102"
+    },
+    {
+      "id": "J127922",
+      "titulo": "Direitos sobre Apartamento 70 m² (02 vagas) - Centro - Curitiba - PR",
+      "preco": 227258.77,
+      "cidade": "Curitiba",
+      "uf": "PR",
+      "modalidade": "Judicial",
+      "status": "Aberto para lances",
+      "link": "https://www.megaleiloes.com.br/imoveis/apartamentos/pr/curitiba/direitos-sobre-apartamento-70-m2-02-vagas-centro-curitiba-pr-j127922"
+    },
+    {
+      "id": "J128501",
+      "titulo": "Apartamento 32 m² (01 vaga) - Praia Aviação - Praia Grande - SP",
+      "preco": 261950.39,
+      "cidade": "Praia Grande",
+      "uf": "SP",
+      "modalidade": "Judicial",
+      "status": "Aberto para lances",
+      "link": "https://www.megaleiloes.com.br/imoveis/apartamentos/sp/praia-grande/apartamento-32-m2-01-vaga-praia-aviacao-praia-grande-sp-j128501"
+    },
+    {
+      "id": "X129537",
+      "titulo": "Salão Comercial 378 m² - Jardim Clemente - Maringá - PR",
+      "preco": 2739290.0,
+      "cidade": "Maringá",
+      "uf": "PR",
+      "modalidade": "Extrajudicial",
+      "status": "Aberto para lances",
+      "link": "https://www.megaleiloes.com.br/imoveis/imoveis-comerciais/pr/maringa/salao-comercial-378-m2-jardim-clemente-maringa-pr-x129537"
+    },
+    {
+      "id": "X129038",
+      "titulo": "02 Lotes de Terreno com 205 m² (cada) - Alto da Colina - Ipanguaçu - RN",
+      "preco": 94302.98,
+      "cidade": "Ipanguaçu",
+      "uf": "RN",
+      "modalidade": "Extrajudicial",
+      "status": "Aberto para lances",
+      "link": "https://www.megaleiloes.com.br/imoveis/terrenos-e-lotes/rn/ipanguacu/02-lotes-de-terreno-com-205-m2-cada-alto-da-colina-ipanguacu-rn-x129038"
+    },
+    {
+      "id": "X129048",
+      "titulo": "Prédio Comercial 316 m² - Nova Imperatriz - Imperatriz - MA",
+      "preco": 400000.0,
+      "cidade": "Imperatriz",
+      "uf": "MA",
+      "modalidade": "Extrajudicial",
+      "status": "Aberto para lances",
+      "link": "https://www.megaleiloes.com.br/imoveis/imoveis-comerciais/ma/imperatriz/predio-comercial-316-m2-nova-imperatriz-imperatriz-ma-x129048"
+    },
+    {
+      "id": "X129049",
+      "titulo": "Loja 358 m² - Centro - Guaíra - SP",
+      "preco": 1400000.0,
+      "cidade": "Guaíra",
+      "uf": "SP",
+      "modalidade": "Extrajudicial",
+      "status": "Aberto para lances",
+      "link": "https://www.megaleiloes.com.br/imoveis/imoveis-comerciais/sp/guaira/loja-358-m2-centro-guaira-sp-x129049"
+    },
+    {
+      "id": "X129050",
+      "titulo": "Prédio Comercial 240 m² - Parque Roosevelt - Bauru - SP",
+      "preco": 483000.0,
+      "cidade": "Bauru",
+      "uf": "SP",
+      "modalidade": "Extrajudicial",
+      "status": "Aberto para lances",
+      "link": "https://www.megaleiloes.com.br/imoveis/imoveis-comerciais/sp/bauru/predio-comercial-240-m2-parque-roosevelt-bauru-sp-x129050"
+    },
+    {
+      "id": "X129051",
+      "titulo": "Prédio Comercial 160 m² - Marina - Cachoeira do Sul - RS",
+      "preco": 330000.0,
+      "cidade": "Cachoeira Do Sul",
+      "uf": "RS",
+      "modalidade": "Extrajudicial",
+      "status": "Aberto para lances",
+      "link": "https://www.megaleiloes.com.br/imoveis/imoveis-comerciais/rs/cachoeira-do-sul/predio-comercial-160-m2-marina-cachoeira-do-sul-rs-x129051"
+    },
+    {
+      "id": "X129052",
+      "titulo": "Prédio Comercial 197 m² - Centro - São Carlos - SP",
+      "preco": 540000.0,
+      "cidade": "São Carlos",
+      "uf": "SP",
+      "modalidade": "Extrajudicial",
+      "status": "Aberto para lances",
+      "link": "https://www.megaleiloes.com.br/imoveis/imoveis-comerciais/sp/sao-carlos/predio-comercial-197-m2-centro-sao-carlos-sp-x129052"
+    },
+    {
+      "id": "X129053",
+      "titulo": "Sala Comercial 870 m² (3° Pavimento) - Centro - Rio de Janeiro - RJ",
+      "preco": 3299000.0,
+      "cidade": "Rio De Janeiro",
+      "uf": "RJ",
+      "modalidade": "Extrajudicial",
+      "status": "Aberto para lances",
+      "link": "https://www.megaleiloes.com.br/imoveis/imoveis-comerciais/rj/rio-de-janeiro/sala-comercial-870-m2-3-pavimento-centro-rio-de-janeiro-rj-x129053"
+    },
+    {
+      "id": "X129054",
+      "titulo": "Sala Comercial 850 m² (5° Pavimento) - Centro - Rio de Janeiro - RJ",
+      "preco": 3299000.0,
+      "cidade": "Rio De Janeiro",
+      "uf": "RJ",
+      "modalidade": "Extrajudicial",
+      "status": "Aberto para lances",
+      "link": "https://www.megaleiloes.com.br/imoveis/imoveis-comerciais/rj/rio-de-janeiro/sala-comercial-850-m2-5-pavimento-centro-rio-de-janeiro-rj-x129054"
+    },
+    {
+      "id": "X129055",
+      "titulo": "Sala Comercial 870 m² (4° Pavimento) - Centro - Rio de Janeiro - RJ",
+      "preco": 3299000.0,
+      "cidade": "Rio De Janeiro",
+      "uf": "RJ",
+      "modalidade": "Extrajudicial",
+      "status": "Aberto para lances",
+      "link": "https://www.megaleiloes.com.br/imoveis/imoveis-comerciais/rj/rio-de-janeiro/sala-comercial-870-m2-4-pavimento-centro-rio-de-janeiro-rj-x129055"
+    },
+    {
+      "id": "X129056",
+      "titulo": "Sala Comercial 493 m² (Parte do 6° Pavimento) - Centro - Rio de Janeiro - RJ",
+      "preco": 2100000.0,
+      "cidade": "Rio De Janeiro",
+      "uf": "RJ",
+      "modalidade": "Extrajudicial",
+      "status": "Aberto para lances",
+      "link": "https://www.megaleiloes.com.br/imoveis/imoveis-comerciais/rj/rio-de-janeiro/sala-comercial-493-m2-parte-do-6-pavimento-centro-rio-de-janeiro-rj-x129056"
+    },
+    {
+      "id": "X129057",
+      "titulo": "Ex-Agência 240 m² - Centro - Oscar Bressane - SP",
+      "preco": 430000.0,
+      "cidade": "Oscar Bressane",
+      "uf": "SP",
+      "modalidade": "Extrajudicial",
+      "status": "Aberto para lances",
+      "link": "https://www.megaleiloes.com.br/imoveis/imoveis-comerciais/sp/oscar-bressane/ex-agencia-240-m2-centro-oscar-bressane-sp-x129057"
+    },
+    {
+      "id": "X129058",
+      "titulo": "Prédio Comercial 194 m² - Parque dos Presidentes - Tramandaí - RS",
+      "preco": 420000.0,
+      "cidade": "Tramandaí",
+      "uf": "RS",
+      "modalidade": "Extrajudicial",
+      "status": "Aberto para lances",
+      "link": "https://www.megaleiloes.com.br/imoveis/imoveis-comerciais/rs/tramandai/predio-comercial-194-m2-parque-dos-presidentes-tramandai-rs-x129058"
+    },
+    {
+      "id": "X129059",
+      "titulo": "Prédio Comercial 540 m² - Santa Eliza - Votuporanga - SP",
+      "preco": 1050000.0,
+      "cidade": "Votuporanga",
+      "uf": "SP",
+      "modalidade": "Extrajudicial",
+      "status": "Aberto para lances",
+      "link": "https://www.megaleiloes.com.br/imoveis/imoveis-comerciais/sp/votuporanga/predio-comercial-540-m2-santa-eliza-votuporanga-sp-x129059"
+    },
+    {
+      "id": "X129060",
+      "titulo": "Prédio Comercial 157 m² - Jardim Novo Horizonte - Ilha Solteira - SP",
+      "preco": 236000.0,
+      "cidade": "Ilha Solteira",
+      "uf": "SP",
+      "modalidade": "Extrajudicial",
+      "status": "Aberto para lances",
+      "link": "https://www.megaleiloes.com.br/imoveis/imoveis-comerciais/sp/ilha-solteira/predio-comercial-157-m2-jardim-novo-horizonte-ilha-solteira-sp-x129060"
+    },
+    {
+      "id": "X129061",
+      "titulo": "Área com 3.040 m² - Jardim América - Porto Nacional - TO",
+      "preco": 1492000.0,
+      "cidade": "Porto Nacional",
+      "uf": "TO",
+      "modalidade": "Extrajudicial",
+      "status": "Aberto para lances",
+      "link": "https://www.megaleiloes.com.br/imoveis/terrenos-e-lotes/to/porto-nacional/area-com-3040-m2-jardim-america-porto-nacional-to-x129061"
+    },
+    {
+      "id": "X129062",
+      "titulo": "Prédio Comercial 715 m² - Jardim Peris - Conchal - SP",
+      "preco": 1700000.0,
+      "cidade": "Conchal",
+      "uf": "SP",
+      "modalidade": "Extrajudicial",
+      "status": "Aberto para lances",
+      "link": "https://www.megaleiloes.com.br/imoveis/imoveis-comerciais/sp/conchal/predio-comercial-715-m2-jardim-peris-conchal-sp-x129062"
+    },
+    {
+      "id": "X129063",
+      "titulo": "Área com 2.882 m² - Vilinha - Imperatriz - MA",
+      "preco": 1391000.0,
+      "cidade": "Imperatriz",
+      "uf": "MA",
+      "modalidade": "Extrajudicial",
+      "status": "Aberto para lances",
+      "link": "https://www.megaleiloes.com.br/imoveis/terrenos-e-lotes/ma/imperatriz/area-com-2882-m2-vilinha-imperatriz-ma-x129063"
+    },
+    {
+      "id": "X129064",
+      "titulo": "Ex-Agência 398 m² - Benfica - Rio de Janeiro - RJ",
+      "preco": 1470000.0,
+      "cidade": "Rio De Janeiro",
+      "uf": "RJ",
+      "modalidade": "Extrajudicial",
+      "status": "Aberto para lances",
+      "link": "https://www.megaleiloes.com.br/imoveis/imoveis-comerciais/rj/rio-de-janeiro/ex-agencia-398-m2-benfica-rio-de-janeiro-rj-x129064"
+    },
+    {
+      "id": "X129065",
+      "titulo": "Ex-Agência 2.700 m² - Centro Histórico - Porto Alegre - RS",
+      "preco": 4830000.0,
+      "cidade": "Porto Alegre",
+      "uf": "RS",
+      "modalidade": "Extrajudicial",
+      "status": "Aberto para lances",
+      "link": "https://www.megaleiloes.com.br/imoveis/imoveis-comerciais/rs/porto-alegre/ex-agencia-2700-m2-centro-historico-porto-alegre-rs-x129065"
+    },
+    {
+      "id": "X129066",
+      "titulo": "Prédio Comercial 317 m² - Liberdade - Manacapuru - AM",
+      "preco": 400000.0,
+      "cidade": "Manacapuru",
+      "uf": "AM",
+      "modalidade": "Extrajudicial",
+      "status": "Aberto para lances",
+      "link": "https://www.megaleiloes.com.br/imoveis/imoveis-comerciais/am/manacapuru/predio-comercial-317-m2-liberdade-manacapuru-am-x129066"
+    },
+    {
+      "id": "X129068",
+      "titulo": "Prédio Comercial 500 m² - Jardim América - Jaú - SP",
+      "preco": 683000.0,
+      "cidade": "Jaú",
+      "uf": "SP",
+      "modalidade": "Extrajudicial",
+      "status": "Aberto para lances",
+      "link": "https://www.megaleiloes.com.br/imoveis/imoveis-comerciais/sp/jau/predio-comercial-500-m2-jardim-america-jau-sp-x129068"
+    },
+    {
+      "id": "X129076",
+      "titulo": "Prédio Comercial 313 m² - Centro - Rio Grande - RS",
+      "preco": 1240000.0,
+      "cidade": "Rio Grande",
+      "uf": "RS",
+      "modalidade": "Extrajudicial",
+      "status": "Aberto para lances",
+      "link": "https://www.megaleiloes.com.br/imoveis/imoveis-comerciais/rs/rio-grande/predio-comercial-313-m2-centro-rio-grande-rs-x129076"
+    },
+    {
+      "id": "J128090",
+      "titulo": "Chácara (com Casa e Lazer) em Área de 15.853 m² - Patrimônio do Carmo - São Roque - SP - Leilão de Direitos",
+      "preco": 6149656.53,
+      "cidade": "São Roque",
+      "uf": "SP",
+      "modalidade": "Judicial",
+      "status": "Aberto para lances",
+      "link": "https://www.megaleiloes.com.br/imoveis/imoveis-rurais/sp/sao-roque/chacara-com-casa-e-lazer-em-area-de-15853-m2-patrimonio-do-carmo-sao-roque-sp-leilao-de-direitos-j128090"
+    },
+    {
+      "id": "J128380",
+      "titulo": "Apartamento Duplex 592 m² (08 vagas) - Santana - São Paulo - SP",
+      "preco": 4480825.61,
+      "cidade": "São Paulo",
+      "uf": "SP",
+      "modalidade": "Judicial",
+      "status": "Aberto para lances",
+      "link": "https://www.megaleiloes.com.br/imoveis/apartamentos/sp/sao-paulo/apartamento-duplex-592-m2-08-vagas-santana-sao-paulo-sp-j128380"
+    },
+    {
+      "id": "J127891",
+      "titulo": "Apartamento 64 m² (01 vaga) - Vila São Paulo - São Paulo - SP",
+      "preco": 250755.61,
+      "cidade": "São Paulo",
+      "uf": "SP",
+      "modalidade": "Judicial",
+      "status": "Aberto para lances",
+      "link": "https://www.megaleiloes.com.br/imoveis/apartamentos/sp/sao-paulo/apartamento-64-m2-01-vaga-vila-sao-paulo-sao-paulo-sp-j127891"
+    },
+    {
+      "id": "X129597",
+      "titulo": "Apartamento 79 m² - Pau Amarelo - Paulista - PE",
+      "preco": 170000.0,
+      "cidade": "Paulista",
+      "uf": "PE",
+      "modalidade": "Extrajudicial",
+      "status": "Aberto para lances",
+      "link": "https://www.megaleiloes.com.br/imoveis/apartamentos/pe/paulista/apartamento-79-m2-pau-amarelo-paulista-pe-x129597"
+    },
+    {
+      "id": "X129598",
+      "titulo": "Apartamento 43 m² (01 vaga) - Vila Clementino - São Paulo - SP",
+      "preco": 814646.58,
+      "cidade": "São Paulo",
+      "uf": "SP",
+      "modalidade": "Extrajudicial",
+      "status": "Aberto para lances",
+      "link": "https://www.megaleiloes.com.br/imoveis/apartamentos/sp/sao-paulo/apartamento-43-m2-01-vaga-vila-clementino-sao-paulo-sp-x129598"
+    },
+    {
+      "id": "X129599",
+      "titulo": "Apartamento 129 m² - Nazaré - Salvador - BA",
+      "preco": 769431.87,
+      "cidade": "Salvador",
+      "uf": "BA",
+      "modalidade": "Extrajudicial",
+      "status": "Aberto para lances",
+      "link": "https://www.megaleiloes.com.br/imoveis/apartamentos/ba/salvador/apartamento-129-m2-nazare-salvador-ba-x129599"
+    },
+    {
+      "id": "X129600",
+      "titulo": "Apartamento 152 m² (privativa + comum) com 02 vagas - Barra da Tijuca - Rio de Janeiro - RJ",
+      "preco": 1254219.32,
+      "cidade": "Rio De Janeiro",
+      "uf": "RJ",
+      "modalidade": "Extrajudicial",
+      "status": "Aberto para lances",
+      "link": "https://www.megaleiloes.com.br/imoveis/apartamentos/rj/rio-de-janeiro/apartamento-152-m2-privativa--comum-com-02-vagas-barra-da-tijuca-rio-de-janeiro-rj-x129600"
+    },
+    {
+      "id": "J128361",
+      "titulo": "Casa 324 m² - Jardim São Caetano - São Caetano do Sul - SP",
+      "preco": 3526909.46,
+      "cidade": "São Caetano Do Sul",
+      "uf": "SP",
+      "modalidade": "Judicial",
+      "status": "Aberto para lances",
+      "link": "https://www.megaleiloes.com.br/imoveis/casas/sp/sao-caetano-do-sul/casa-324-m2-jardim-sao-caetano-sao-caetano-do-sul-sp-j128361"
+    }
+  ]
+}

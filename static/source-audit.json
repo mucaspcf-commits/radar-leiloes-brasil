@@ -1,0 +1,117 @@
+{
+  "checked_at": "2026-10-03T13:00:35.142110+00:00",
+  "scope": "Auditoria de acesso técnico em fontes selecionadas; não é cobertura exaustiva nem licença de uso.",
+  "sources": [
+    {
+      "name": "Banco do Brasil",
+      "category": "Bancos",
+      "url": "https://www.seuimovelbb.com.br/catalogo",
+      "checked_at": "2026-10-03T13:00:15.760490+00:00",
+      "integrated": false,
+      "http_status": 200,
+      "final_url": "https://www.seuimovelbb.com.br/catalogo",
+      "status": "Página acessível; importação não validada",
+      "title": "Seu Imóvel BB :: Seu Imóvel BB",
+      "structured_data_detected": false,
+      "note": "Consulta sem credenciais. API/feed gratuito e permissão de reutilização ainda não confirmados.",
+      "integration_mode": "Consulta externa"
+    },
+    {
+      "name": "Itaú",
+      "category": "Bancos",
+      "url": "https://www.itau.com.br/imoveis-itau/",
+      "checked_at": "2026-10-03T13:00:15.765492+00:00",
+      "integrated": false,
+      "http_status": 403,
+      "status": "Consulta automatizada indisponível (HTTP 403)",
+      "note": "Consulta pelo portal pode continuar disponível. Não houve tentativa de contornar o bloqueio.",
+      "integration_mode": "Consulta externa"
+    },
+    {
+      "name": "Bradesco",
+      "category": "Bancos",
+      "url": "https://corporate.bradesco/html/classic/produtos-servicos/leiloes/index.shtm",
+      "checked_at": "2026-10-03T13:00:15.766492+00:00",
+      "integrated": false,
+      "http_status": 200,
+      "final_url": "https://corporate.bradesco/html/classic/produtos-servicos/leiloes/index.shtm",
+      "status": "Página acessível; importação não validada",
+      "title": "Imóveis e Veículos em Leilão | Banco Bradesco",
+      "structured_data_detected": false,
+      "note": "Consulta sem credenciais. API/feed gratuito e permissão de reutilização ainda não confirmados.",
+      "integration_mode": "Consulta externa"
+    },
+    {
+      "name": "Zuk: bancos, Creditas, construtoras e incorporadoras",
+      "category": "Bancos / financeiras / construtoras / leiloeiros",
+      "url": "https://www.portalzuk.com.br/",
+      "checked_at": "2026-10-03T13:00:16.724555+00:00",
+      "integrated": false,
+      "http_status": 403,
+      "status": "Consulta automatizada indisponível (HTTP 403)",
+      "note": "Consulta pelo portal pode continuar disponível. Não houve tentativa de contornar o bloqueio.",
+      "integration_mode": "Consulta externa"
+    },
+    {
+      "name": "Superbid",
+      "category": "Leiloeiros e plataformas",
+      "url": "https://www.superbid.net/categorias/imoveis?isHomeCategory=true",
+      "checked_at": "2026-10-03T13:00:17.100536+00:00",
+      "integrated": false,
+      "http_status": 403,
+      "status": "Consulta automatizada indisponível (HTTP 403)",
+      "note": "Consulta pelo portal pode continuar disponível. Não houve tentativa de contornar o bloqueio.",
+      "integration_mode": "Consulta externa"
+    },
+    {
+      "name": "Mega Leilões",
+      "category": "Leiloeiros e plataformas",
+      "url": "https://www.megaleiloes.com.br/",
+      "checked_at": "2026-10-03T13:00:17.460751+00:00",
+      "integrated": true,
+      "http_status": 200,
+      "final_url": "https://www.megaleiloes.com.br/",
+      "status": "Página acessível; importação não validada",
+      "title": "Leilões Judiciais e Extrajudiciais Online | Mega Leilões",
+      "structured_data_detected": false,
+      "note": "Consulta sem credenciais. API/feed gratuito e permissão de reutilização ainda não confirmados.",
+      "integration_mode": "Índice parcial: primeira página"
+    },
+    {
+      "name": "Sodré Santoro",
+      "category": "Leiloeiros e plataformas",
+      "url": "https://www.sodresantoro.com.br/",
+      "checked_at": "2026-10-03T13:00:17.713289+00:00",
+      "integrated": false,
+      "http_status": 499,
+      "status": "Consulta automatizada indisponível (HTTP 499)",
+      "note": "Consulta pelo portal pode continuar disponível. Não houve tentativa de contornar o bloqueio.",
+      "integration_mode": "Consulta externa"
+    },
+    {
+      "name": "Comprei PGFN",
+      "category": "Órgãos públicos",
+      "url": "https://comprei.pgfn.gov.br/anuncio",
+      "checked_at": "2026-10-03T13:00:18.163866+00:00",
+      "integrated": false,
+      "http_status": null,
+      "status": "Acesso não confirmado",
+      "note": "URLError",
+      "integration_mode": "Consulta externa"
+    },
+    {
+      "name": "Receita Federal: mercadorias apreendidas",
+      "category": "Órgãos públicos — outros bens",
+      "url": "https://www.gov.br/receitafederal/pt-br/assuntos/orientacao-tributaria/leilao",
+      "checked_at": "2026-10-03T13:00:19.327151+00:00",
+      "integrated": false,
+      "http_status": 200,
+      "final_url": "https://www.gov.br/receitafederal/pt-br/assuntos/orientacao-tributaria/leilao",
+      "status": "Página acessível; importação não validada",
+      "title": "Destinação de Mercadorias Apreendidas — Receita Federal",
+      "structured_data_detected": true,
+      "note": "Consulta sem credenciais. API/feed gratuito e permissão de reutilização ainda não confirmados.",
+      "integration_mode": "Consulta externa"
+    }
+  ]
+}
